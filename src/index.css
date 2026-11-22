@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --pb-bg-main: #222222;
+  --pb-bg-secondary: #111111;
+  --pb-fg-main: #dcdcdc;
+  --pb-fg-good: #adff2f;
+  --pb-fg-bad: #ff6347;
+  --pb-fg-custom: #ff8c00;
+  --pb-fg-retry: #ffff00;
+  --pb-fg-tocheck: #7fffd4;
+  --pb-fg-selected: #1e90ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Inter, system-ui, -apple-system, sans-serif;
+  background-color: var(--pb-bg-secondary);
+  color: var(--pb-fg-main);
+}
+
+code, pre, textarea.mono-editor {
+  font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
